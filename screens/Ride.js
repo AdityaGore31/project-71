@@ -59,7 +59,7 @@ export default class RideScreen extends Component {
         if (bike.is_bike_available) {
           this.assignBike();
         } else {
-          this.initiateBookReturn();
+          this.initiateBikeReturn();
         }
       });
   };
